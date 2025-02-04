@@ -65,7 +65,6 @@ int main(int argc, char* argv[])
     UnloadSound(victorySound);
     UnloadSound(defeatSound);
     UnloadSound(restartSound);
-    CloseAudioDevice();
 
     CloseWindow();
     return 0;
